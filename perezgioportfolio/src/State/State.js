@@ -18,7 +18,7 @@ class State extends Component{
 						  <br/><br/>
 
 						  <p class="content">
-							Here lie some thoughts I will put out
+							Here lie some thoughts I will put out. My Gits are not showing 
 					 		</p>
 
 					 		<h3 class="header">Blockchain</h3>
