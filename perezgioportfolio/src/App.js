@@ -76,7 +76,7 @@ class App extends Component {
 
 
 
-        <footer/>
+      <Contact/>
 
 
       </div>

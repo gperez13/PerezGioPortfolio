@@ -14,9 +14,21 @@ class Contact extends Component{
 				<div id="contact">
 
 
-					<h1>email me here!!!</h1>
+					<div>Contact</div>
+
+						<a href="https://github.com/gperez13" rel="noopener noreferrer" target="_blank">
+							<img id="cat" src="images/GitHubLight.png"/>
+						</a>
+
+						<a href="mailto:giovanni_perez4@yahoo.com">
+							<img id="email" src="images/email.png"/></a>
+
+
+						<a href="https://www.linkedin.com/in/gperez13/" rel="noopener noreferrer" target="_blank">
+							<img id="icon" src="images/LinkedLight.png"/>
+						</a>
 					
-				</div>
+					</div>
 
 
 			</div>

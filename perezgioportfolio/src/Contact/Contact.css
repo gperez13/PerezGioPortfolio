@@ -1,10 +1,12 @@
 #contact{
-	height: 400px;
-	width: 600px;
-	border: 2px solid black;
-	border-radius: 3px;
-	margin: 10px;
-	padding: 30px;
+	position: absolute;
+	width: 100%;
+	margin-top: -2.6rem;
+	padding-top: 2.3rem;
+	padding-bottom: 2rem;
+	padding-left: 5rem;
+	background-color: black;
+	color: white;
 }
 
 .header{
@@ -13,4 +15,29 @@
 
 .content{
 	font-family: "Crimson Text";
+}
+
+#cat{
+	margin: 20px 0px 0px 0px;
+	height: 32px;
+	width: 32px;
+	border: none;
+	border-radius: 0px;
+}
+
+#email{
+	margin: 20px 0px 0px 10px;
+	height: 32px;
+	width: 32px;
+	border: none;
+	border-radius: 0px;
+
+}
+
+#icon{
+	margin: 20px 0px 0px 10px;
+	height: 32px;
+	width: 40px;
+	border: none;
+	border-radius: 0px;
 }
