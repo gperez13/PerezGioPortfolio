@@ -18,7 +18,7 @@ class Skills extends Component{
 						<div class="row">
 							<ul class="col-2"></ul>
 							<ul class="col-6">
-								<h3>Primary Skills</h3>
+								<h3 class="header">Primary Skills</h3>
 								<br/>
 								<li>Javascript/CSS/HTML</li>
 								<li>Bootstrap</li>
@@ -39,7 +39,7 @@ class Skills extends Component{
 							</ul>
 
 							<ul class="col-4">
-								<h3>Exposed to</h3>
+								<h3 class="header">Exposed to</h3>
 								<br/>
 
 								<li>Tableau</li>

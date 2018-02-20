@@ -12,18 +12,18 @@ class State extends Component{
 		return(
 			<div>
 				<div id="state">
-						  <h3 style={{"font-family":"Montserrat"}}>State of the Gio: Thoughts on the Current Technology Space</h3>
+						  <h3 class="header">State of the Gio: Thoughts on the Current Technology Space</h3>
 	
 
 						  <br/><br/>
 
-						  <p style={{"font-family":"Crimson Text"}}>
+						  <p class="content">
 							Here lie some thoughts I will put out
 					 		</p>
 
-					 		<h3 style={{"font-family":"Montserrat"}}>Blockchain</h3>
-					 		<h3 style={{"font-family":"Montserrat"}}>Data</h3>
-							<h3 style={{"font-family":"Montserrat"}}>Healthcare</h3>
+					 		<h3 class="header">Blockchain</h3>
+					 		<h3 class="header">Data</h3>
+							<h3 class="header">Healthcare</h3>
 	
 
 						
