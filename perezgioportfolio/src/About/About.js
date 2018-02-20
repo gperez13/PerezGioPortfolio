@@ -12,10 +12,12 @@ class About extends Component{
 		return(
 			<div>
 				<div id="about">
-						  <h3>From Chicago to Austin and Back</h3>
+						  <h3 style={{"font-family":"Montserrat"}}>From Chicago to Austin and Back</h3>
 	
 
 						  <br/><br/>
+
+						  <p style={{"font-family":"Crimson Text"}}>
 					 I am a software developer with a knack for fostering 
 					 relationships between people and data. Two years ago I 
 					 moved to Austin, Texas and began working in the tech 
@@ -27,10 +29,14 @@ class About extends Component{
 					 the performance of one of the best cities in the world. 
 					 Because of my background in informatics, I can focus on 
 					 immediate needs while keeping track of the big picture. 
+					 		</p>
 						<br/><br/><br/>
 
 
+						<h3 style={{"font-family":"Crimson Text"}}> This is going to be an example of stuff</h3>
+						  
 
+					<p style={{"font-family":"Montserrat"}}>
 
 					Creating community has always come easy to me. 
 					As an extrovert, I look to break down walls and 
@@ -39,7 +45,7 @@ class About extends Component{
 					opportunities for the benefit of the organization as 
 					a whole. Through these soft skills I can simplify 
 					complex ideas and deliver them to the end user as 
-					readable data. 
+					readable data. </p>
 					
 				</div>
 
