@@ -11,6 +11,7 @@ import Contact from './Contact/Contact.js';
 import Header from './Header/Header.js';
 import Projects from './Projects/Projects.js';
 import Skills from './Skills/Skills.js';
+import State from './State/State.js';
 
 class App extends Component {
   render() {
@@ -31,11 +32,16 @@ class App extends Component {
           <div class="container">
             <div class="row">
               <div class="col-md-12 col-sm-12">
-                <h3>Something | Something else</h3><br/>
+                
                 <h1>Giovanni Perez</h1>
+                <br/>
+                <h3>Something | Something else</h3>
                 <hr/>
                 <Link to="/about"><p class="smoothScroll btn btn-default">What I do</p></Link>
                 <Link to="/projects"><p class="smoothScroll btn btn-default">Projects</p></Link>
+                <Link to="/Skills"><p class="smoothScroll btn btn-default">Skills</p></Link>
+                <Link to="/State"><p class="smoothScroll btn btn-default">State</p></Link>
+              
               </div>
             </div>
           </div>    
@@ -55,22 +61,14 @@ class App extends Component {
         
 
           
-                 <nav id="nav">
-                  <container>
-                    <ul style={{"list-style": "none", float: "right"}}>
-                      <Link to="/About"><li>About</li></Link>
-                      <Link to="/Projects"><li>Projects</li></Link>
-                      <Link to="/Skills"><li>Skills</li></Link>
-                    </ul>
-                  </container>
-                </nav>
+
 
 
 
              <Route path="/about"  component={About}/>
              <Route path="/projects"  component={Projects}/>
              <Route path="/skills"  component={Skills}/>
-
+             <Route path="/state"  component={State}/>
 
           </div>
         </Router>
