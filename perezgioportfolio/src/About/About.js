@@ -26,16 +26,12 @@ class About extends Component{
 					 industry. The Advisory Board Company introduced me to 
 					 what it's like to work in an enterprise setting and 
 					 gave me a behind the scenes understanding of both 
-					 software product as well as healthcare operations. 
-					 Now that I am back in Chicago I am looking to contribute 
-					 the performance of one of the best cities in the world. 
+					 software product as well as healthcare operations.  
 					 Because of my background in informatics, I can focus on 
 					 immediate needs while keeping track of the big picture. 
 					 		</p>
-						<br/><br/><br/>
 
 
-						<h3 class="header"> This is going to be an example of stuff</h3>
 						  
 
 					<p class="content">
@@ -48,8 +44,20 @@ class About extends Component{
 					a whole. Through these soft skills I can simplify 
 					complex ideas and deliver them to the end user as 
 					readable data. </p>
+
+					<p class="content">
+
+					Recently, I volunteered at the International Blockchain Congress,
+					built a distributed ledger using IBM Hyperledger, visualized a data 
+					set usingCartoDB, and became part of the Blockchain for Social Good 
+					community in Chicago. I am looking for the opportunity to join a Front End Development
+					team and have interests in Dev Ops & crypto platforms.</p>
 					
+							<h6 class="content">Resume</h6>
+						  	<a href="./images/GiovanniPerez-Resume.pdf" rel="noopener noreferrer" target="_blank"><img id="resume" src="/pages-1-32.png"/></a>
 				</div>
+
+				<br/><br/><br/>
 
 				 <Contact/>
 
