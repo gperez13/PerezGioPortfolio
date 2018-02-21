@@ -11,14 +11,27 @@ class Header extends Component{
 
 		return(
 			<div>
-				<div id="header">
+				<div id="header" >
 
 
-					<h1>Play Video!!</h1>
+
+
+
+				 	<div class="video-background">
+					    <div class="video-foreground">
+					      <iframe src="https://www.youtube.com/embed/CHBwnxTWE1I?controls=0&showinfo=0&rel=0&autoplay=1&mute=1&loop=1&playlist=CHBwnxTWE1I" frameborder="0" allowfullscreen></iframe>
+					    </div>
+					</div>
 					
+
+
+
+
+
+
+
+
 				</div>
-
-
 			</div>
 
 			)

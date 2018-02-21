@@ -1,8 +1,10 @@
 #projects{
 /*	height: 400px;
 	width: 600px;*/
-
-	margin: 100px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
 	padding: 5px;
 }
 

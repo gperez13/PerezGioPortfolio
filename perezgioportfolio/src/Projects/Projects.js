@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Projects.css';
+import Contact from '../Contact/Contact.js';
 
 
 
@@ -157,6 +158,11 @@ class Projects extends Component{
 				</div>
 			</div> 
 		</div>
+
+
+
+		<Contact/>
+
 		</div>
 
 		)

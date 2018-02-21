@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './State.css';
+import Contact from '../Contact/Contact.js';
+
 
 
 
@@ -30,7 +32,7 @@ class State extends Component{
 					
 				</div>
 
-
+				<Contact/>
 			</div>
 
 			)

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './About.css';
+import Contact from '../Contact/Contact.js';
+
 
 
 
@@ -48,6 +50,8 @@ class About extends Component{
 					readable data. </p>
 					
 				</div>
+
+				 <Contact/>
 
 
 			</div>

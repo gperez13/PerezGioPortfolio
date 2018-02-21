@@ -65,6 +65,7 @@ class App extends Component {
 
 
 
+             <Route path="/home"  component={Header}/>
              <Route path="/about"  component={About}/>
              <Route path="/projects"  component={Projects}/>
              <Route path="/skills"  component={Skills}/>
@@ -76,7 +77,7 @@ class App extends Component {
 
 
 
-      <Contact/>
+     
 
 
       </div>
