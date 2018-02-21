@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './Projects.css';
 import Contact from '../Contact/Contact.js';
+import AnimatedWrapper from "../AnimatedWrapper";
 
 
 
-class Projects extends Component{
+
+class ProjectsComponent extends Component{
 
 	render(){
 
@@ -177,5 +179,5 @@ class Projects extends Component{
 
 
 
-
+const Projects = AnimatedWrapper(ProjectsComponent);
 export default Projects;

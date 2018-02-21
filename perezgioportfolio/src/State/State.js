@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import './State.css';
 import Contact from '../Contact/Contact.js';
+import AnimatedWrapper from "../AnimatedWrapper";
 
 
 
 
-class State extends Component{
+
+class StateComponent extends Component{
 
 	render(){
 
@@ -69,5 +71,5 @@ class State extends Component{
 
 
 
-
+const State = AnimatedWrapper(StateComponent);
 export default State;

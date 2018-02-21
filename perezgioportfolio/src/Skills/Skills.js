@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './Skills.css';
 import Contact from '../Contact/Contact.js';
+import AnimatedWrapper from "../AnimatedWrapper";
 
 
 
 
-class Skills extends Component{
+class SkillsComponent extends Component{
 
 	render(){
 
@@ -76,5 +77,5 @@ class Skills extends Component{
 
 
 
-
+const Skills = AnimatedWrapper(SkillsComponent);
 export default Skills;
