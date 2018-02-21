@@ -17,15 +17,15 @@ class Contact extends Component{
 					<div>Contact</div>
 
 						<a href="https://github.com/gperez13" rel="noopener noreferrer" target="_blank">
-							<img id="cat" src="images/GitHubLight.png"/>
+							<img id="cat" src="/GitHubLight.png"/>
 						</a>
 
 						<a href="mailto:giovanni_perez4@yahoo.com">
-							<img id="email" src="images/email.png"/></a>
+							<img id="email" src="/email.png"/></a>
 
 
 						<a href="https://www.linkedin.com/in/gperez13/" rel="noopener noreferrer" target="_blank">
-							<img id="icon" src="images/LinkedLight.png"/>
+							<img id="icon" src="/LinkedLight.png"/>
 						</a>
 					
 					</div>

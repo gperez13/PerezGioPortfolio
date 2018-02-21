@@ -48,13 +48,13 @@ class Projects extends Component{
 									<br/><br/>
 									Built Using: Hyperledger. Docker. React.js.
 									</p>
-									<a href="https://github.com/gperez13/RxChain" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="images/GitHubKitty.png"/></a>
+									<a href="https://github.com/gperez13/RxChain" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="/GitHubKitty.png"/></a>
 							</div>
 
 								<div class="col-md-2" style={{"float": "right"}}></div>
 
 								<div class="col-md-5" style={{"float": "right"}}>
-									<a  href="https://rxchainfrontend.herokuapp.com" rel="noopener noreferrer" target="_blank"><img class="work" src="images/BulbasaurGuac.png"/></a>
+									<a  href="https://rxchainfrontend.herokuapp.com" rel="noopener noreferrer" target="_blank"><img class="work" src="/BulbasaurGuac.png"/></a>
 								</div>
 
 						</div>
@@ -64,7 +64,7 @@ class Projects extends Component{
 					<div class="row">
 
 						<div class="col-md-7">
-							<a href="https://rate-your-chicago-aldermen.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img class="work" src="images/RateMyChicago.png"/></a>
+							<a href="https://rate-your-chicago-aldermen.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img class="work" src="/RateMyChicago.png"/></a>
 							
 						</div>
 							<div class="col-md-5">
@@ -84,7 +84,7 @@ class Projects extends Component{
 								</p>
 
 
-							<a href="https://github.com/gperez13/my-CRUD-politician" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="images/GitHubKitty.png" /></a>
+							<a href="https://github.com/gperez13/my-CRUD-politician" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="/GitHubKitty.png" /></a>
 							</div>
 							
 					
@@ -110,13 +110,13 @@ class Projects extends Component{
 									<br/><br/>
 									Built Using: Phaser. jQuery. HTML5. Tiled.
 									</p>
-									<a href="https://github.com/gperez13/BulbasaurGuac" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="images/GitHubKitty.png"/></a>
+									<a href="https://github.com/gperez13/BulbasaurGuac" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="/GitHubKitty.png"/></a>
 							</div>
 
 								<div class="col-md-2" style={{"float": "right"}}></div>
 
 								<div class="col-md-5" style={{"float": "right"}}>
-									<a  href="https://bulbasaurguacshooter.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img class="work" src="images/BulbasaurGuac.png"/></a>
+									<a  href="https://bulbasaurguacshooter.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img class="work" src="/BulbasaurGuac.png"/></a>
 								</div>
 
 						</div>
@@ -131,7 +131,7 @@ class Projects extends Component{
 
 							<div class="col-md-7">
 			
-								<a rel="noopener noreferrer" target="_blank"><img class="work" src="images/pier.png"/></a>
+								<a rel="noopener noreferrer" target="_blank"><img class="work" src="/pier.png"/></a>
 			
 							</div>
 
@@ -148,7 +148,7 @@ class Projects extends Component{
 
 									</p>
 
-								<a href="https://github.com/gperez13" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="images/GitHubKitty.png"/></a>
+								<a href="https://github.com/gperez13" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="/GitHubKitty.png"/></a>
 							</div>
 
 						</div>				
