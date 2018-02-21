@@ -54,7 +54,7 @@ class About extends Component{
 					team and have interests in Dev Ops & crypto platforms.</p>
 					
 							<h6 class="content">Resume</h6>
-						  	<a href="./images/GiovanniPerez-Resume.pdf" rel="noopener noreferrer" target="_blank"><img id="resume" src="/pages-1-32.png"/></a>
+						  	<a href="./GiovanniPerez-Resume.pdf" rel="noopener noreferrer" target="_blank"><img id="resume" src="/pages-1-32.png"/></a>
 				</div>
 
 				<br/><br/><br/>
