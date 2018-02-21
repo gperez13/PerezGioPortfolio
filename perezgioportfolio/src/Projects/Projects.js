@@ -24,6 +24,41 @@ class Projects extends Component{
 
 
 
+						<div class="row">
+
+							<div class="col-md-5">
+									<h4 class="header">RxChain</h4>
+									<br/>
+
+									<p class="content">RxChain is a Blockchain based Pharmaceutical 
+									application aimed at bridging the gap between hospital EMR 
+									systems and Pharmacy records while reducing drug abuse & operation 
+									nefficiencies. It uses IBM’s Hyperledger technology to 
+									eliminate PHI breaches and is displayed through a React 
+									front end interphase. I am currently working on deploying the Hyperledger 
+									model using Docker. Soon, the app will also contain CRUD elements and 
+									have the React interphase updated to accommodate the API calls and 
+									improve cosmetic features. Lastly, I am also working on a mapping tool to 
+									find the location of your nearest pharmacy. This project serves as an example 
+									of how blockchain applications do not need a token in order to serve as secure distributed ledgers 
+									and taught me the value of modular design.
+
+
+									<br/><br/>
+									Built Using: Hyperledger. Docker. React.js.
+									</p>
+									<a href="https://github.com/gperez13/RxChain" rel="noopener noreferrer" target="_blank"><img id="kittycat" src="images/GitHubKitty.png"/></a>
+							</div>
+
+								<div class="col-md-2" style={{"float": "right"}}></div>
+
+								<div class="col-md-5" style={{"float": "right"}}>
+									<a  href="https://rxchainfrontend.herokuapp.com" rel="noopener noreferrer" target="_blank"><img class="work" src="images/BulbasaurGuac.png"/></a>
+								</div>
+
+						</div>
+
+
 
 					<div class="row">
 
@@ -39,7 +74,9 @@ class Projects extends Component{
 								<p class="content">Rate My Chicago Alderman is a politician rating project aimed at engaging Chicago citizens in 
 								local politics. It has been deployed with Heroku, but I am thinking about redeploying it on a 
 								larger server in case it picks up traffic. Prior to redeployment, we will fix some routing issues 
-								that render the wards incorrectly and work with the Sessions so that users can only alter records they create. 
+								that render the wards incorrectly and work with the Sessions so that users can only alter records they create.
+								Through this application I was able to gather a deeper understanding of databases and some of the advantages of 
+								relational & non-relational data models. 
 
 								<br/><br/>
 								Built Using: Javascript. D3.js. HTML5. CSS3. JSON. MongoDB. mLabm. Sessions. Express.
