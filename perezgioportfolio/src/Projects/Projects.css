@@ -2,11 +2,13 @@
 /*	height: 400px;
 	width: 600px;*/
 	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	margin-right: 100px;
 	margin-left: 100px;
 	padding: 5px;
 }
+
+
 
 .header{
 	font-family: "Montserrat";
@@ -17,12 +19,13 @@
 }
 
 .row{
-	margin-bottom: 5rem;
+	margin-bottom: 3.5rem;
 }
 
 
+
 #kittycat{
-	margin: 20px 0px 0px 0px;
+	margin: 20px 0px 40px 0px;
 	height: 48px;
 	width: 48px;
 	border: none;
@@ -32,7 +35,7 @@
 
 
 img{
-  margin: 40px 0px 0px 0px;
+  margin: 40px 0px 40px 0px;
   height: 400px;
   width: 500px;
   border: 2px solid black;

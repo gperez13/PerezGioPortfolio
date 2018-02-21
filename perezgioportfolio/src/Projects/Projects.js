@@ -57,10 +57,10 @@ class Projects extends Component{
 									<a  href="https://rxchainfrontend.herokuapp.com" rel="noopener noreferrer" target="_blank"><img class="work" src="/rxchain.png"/></a>
 								</div>
 
+
 						</div>
 
-
-
+					
 					<div class="row">
 
 						<div class="col-md-7">
@@ -89,7 +89,7 @@ class Projects extends Component{
 							
 					
 
-						<br/><br/><br/><hr/><br/><br/><br/>
+	
 
 
 
@@ -123,10 +123,10 @@ class Projects extends Component{
 
 
 
-	
-								<br/><br/><br/><hr/><br/><br/><br/>
 
 
+
+						<hr/>
 						<div class="row">
 
 							<div class="col-md-7">
