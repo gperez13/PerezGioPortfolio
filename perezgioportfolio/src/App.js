@@ -5,6 +5,7 @@ import {
   Switch,
   Link
 } from 'react-router-dom';
+import TransitionGroup from "react-transition-group/TransitionGroup";
 import './App.css';
 import About from './About/About.js';
 import Contact from './Contact/Contact.js';
@@ -15,6 +16,16 @@ import State from './State/State.js';
 
 class App extends Component {
   render() {
+
+
+  const firstChild = props => {
+
+    const childrenArray = React.Children.toArray(props.children);
+    return childrenArray[0] || null;
+
+  };
+
+
     return (
 
 
@@ -37,11 +48,13 @@ class App extends Component {
                 <br/>
                 <h3>Web Developer | Blockchain Enthusiast (No ICOs)</h3>
                 <hr/>
-                <Link to="/about"><p class="smoothScroll btn btn-default">About</p></Link>
-                <Link to="/projects"><p class="smoothScroll btn btn-default">Projects</p></Link>
-                <Link to="/Skills"><p class="smoothScroll btn btn-default">Skills</p></Link>
-                <Link to="/State"><p class="smoothScroll btn btn-default">State</p></Link>
-              
+                <div className="linkHover">
+                  <Link to="/about"><p class="smoothScroll btn btn-default">About</p></Link>
+                  <Link to="/projects"><p class="smoothScroll btn btn-default">Projects</p></Link>
+                  <Link to="/Skills"><p class="smoothScroll btn btn-default">Skills</p></Link>
+                  <Link to="/State"><p class="smoothScroll btn btn-default">State</p></Link>
+                </div>
+
               </div>
             </div>
           </div>    
@@ -66,10 +79,47 @@ class App extends Component {
 
 
              <Route path="/home"  component={Header}/>
-             <Route path="/about"  component={About}/>
-             <Route path="/projects"  component={Projects}/>
-             <Route path="/skills"  component={Skills}/>
-             <Route path="/state"  component={State}/>
+
+        <Route
+
+            exact
+            path="/about"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <About {...rest} />}
+            </TransitionGroup>
+        )}/>
+
+        <Route
+
+            exact
+            path="/projects"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <Projects {...rest} />}
+            </TransitionGroup>
+        )}/>        
+
+        <Route
+
+            exact
+            path="/skills"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <Skills {...rest} />}
+            </TransitionGroup>
+        )}/>
+
+        <Route
+
+            exact
+            path="/state"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <State {...rest} />}
+            </TransitionGroup>
+        )}/>
+
 
           </div>
         </Router>

@@ -5,6 +5,10 @@ import './Contact.css';
 
 class Contact extends Component{
 
+
+
+	function 
+
 	render(){
 
 
@@ -14,7 +18,7 @@ class Contact extends Component{
 				<div id="contact">
 
 
-					<div>Contact</div>
+					<div class="headeropebn ">Contact</div>
 
 						<a href="https://github.com/gperez13" rel="noopener noreferrer" target="_blank">
 							<img id="cat" src="/GitHubLight.png"/>
