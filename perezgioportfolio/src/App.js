@@ -35,9 +35,9 @@ class App extends Component {
                 
                 <h1>Giovanni Perez</h1>
                 <br/>
-                <h3>Something | Something else</h3>
+                <h3>Web Developer | Blockchain Enthusiast (No ICOs)</h3>
                 <hr/>
-                <Link to="/about"><p class="smoothScroll btn btn-default">What I do</p></Link>
+                <Link to="/about"><p class="smoothScroll btn btn-default">About</p></Link>
                 <Link to="/projects"><p class="smoothScroll btn btn-default">Projects</p></Link>
                 <Link to="/Skills"><p class="smoothScroll btn btn-default">Skills</p></Link>
                 <Link to="/State"><p class="smoothScroll btn btn-default">State</p></Link>

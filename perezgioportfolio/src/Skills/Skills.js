@@ -25,18 +25,24 @@ class Skills extends Component{
 								<li>Javascript/CSS/HTML</li>
 								<li>Bootstrap</li>
 								<li>SQL</li>
-								<li>Ruby</li>
-								<li>React</li>
+								<li>Ruby/Rails</li>
+								<li>React.js</li>
 								<li>Sinatra</li>
+								<li>Express</li>
+								<li>jQuery</li>
+								<li>D3</li>
 								<li>Node.js</li>
 								<li>MongoDB</li>
 								<li>Docker</li>
 								<li>Python</li>
 								<li>Hyperledger</li>
+								<li>Geth</li>
+								<li>Solidity/Remix</li>
 								<li>Github</li>
 								<li>Salesforce</li>
 								<li>Gulp</li>
 								<li>Mocha/Chai</li>
+								<li>Postman/JSON</li>
 								
 							</ul>
 
@@ -45,8 +51,7 @@ class Skills extends Component{
 								<br/>
 
 								<li>Tableau</li>
-								<li>D3</li>
-								<li>Postman/JSON</li>
+								<li>CartoDB</li>
 								<li>JIRA</li>
 								<li>Agile</li>
 							</ul>

@@ -54,7 +54,7 @@ class Projects extends Component{
 								<div class="col-md-2" style={{"float": "right"}}></div>
 
 								<div class="col-md-5" style={{"float": "right"}}>
-									<a  href="https://rxchainfrontend.herokuapp.com" rel="noopener noreferrer" target="_blank"><img class="work" src="/BulbasaurGuac.png"/></a>
+									<a  href="https://rxchainfrontend.herokuapp.com" rel="noopener noreferrer" target="_blank"><img class="work" src="/rxchain.png"/></a>
 								</div>
 
 						</div>
