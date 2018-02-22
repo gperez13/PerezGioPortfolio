@@ -162,7 +162,7 @@ class ProjectsComponent extends Component{
 		</div>
 
 
-
+		<div class="buffer"/>
 		<Contact/>
 
 		</div>

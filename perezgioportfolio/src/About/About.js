@@ -58,7 +58,7 @@ class AboutComponent extends Component{
 						  	<a href="./GiovanniPerez-Resume.pdf" rel="noopener noreferrer" target="_blank"><img id="resume" src="/pages-1-32.png"/></a>
 				</div>
 
-				<br/><br/><br/>
+				<div class="buffer"/>
 
 				 <Contact/>
 
